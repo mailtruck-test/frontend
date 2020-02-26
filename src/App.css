@@ -1,0 +1,64 @@
+body {
+  background: #efefef;
+}
+
+.card {
+  text-align: center;
+  background: #fefefe;
+  padding: 1.5em;
+  height: 100%;
+  /* float: left; */
+}
+
+h1 {
+  text-align: center;
+}
+
+form label {
+  margin: 0.5em 0.3em 0.2em;
+  font-size: 1.3em;
+}
+/* 
+form div {
+  float: left;
+  clear: both;
+} */
+
+label span {
+  width: 200px;
+  /* display: block; */
+  /* float: left; */
+  text-align: right;
+}
+
+form input,
+form select {
+  font-size: 1.1em;
+  padding: 0.3em;
+  margin: 0.3em;
+}
+
+.feedback {
+  color: red;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  display: block;
+}
+
+.confirming {
+  display: none;
+}
+
+.row {
+  margin: 0.3em;
+  padding: 0.2em;
+  font-size: 1.3em;
+}
+
+.form-button {
+  margin-top: 2.5em;
+  border: solid 1px #ccc;
+  padding: 1.2em 2em;
+  font-size: 1.3em;
+}
